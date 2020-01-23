@@ -1,70 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nasa Kids
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Deployed App
-https://nasa-stage.herokuapp.com/
+https://nasa-kids-final.herokuapp.com/
 
-## Available Scripts
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-In the project directory, you can run:
+## General info
+As our group project 3, we feel the existing resources available for children about NASA and getting them interested in outer space and exploration, are a bit lacking. NASA has many more important things to focus on, so we decided to create an app to bring the wonders of it all to children in a more fun environment.
 
-### `npm start`
+## Technologies
+* MongoDB
+* JavaScript
+* Bootstrap
+* React
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Code Examples
+    render() {
+        return (
+            <Container>
+                <Row>
+                    <Col size="md-12">
+                        <h2 className="text-center">Image of the day</h2>
+                    </Col>
+                </Row>
+                <Row>
+                    <img className="imageofday" src={this.state.result.url}/>
+                </Row>
+                <Row><h4 className="imageofdaytitle">{this.state.result.title}</h4></Row>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Features
+List of features ready and TODOs for future development:
+### Features
+* "Games" include a trivia game, click game with 3 difficulty levels and a hangman-like game called "Earth Protector"
+* Glossary scraped and created from NASA children's site.
+* API call to fetch and display NASA image of the day and title. If image of the day is a video, it does not display.
+### Technical Design
+* NASA brand guide followed for logo, font and image layout.
+* Navbar background created based on stars in logo.
+### Future Development
+* The "Cool Pics" page needs to be populated.
+* The "Match" game is not set up.
+* The "Earth Protector" game has bugs to fix.
+* The "High Scores" page needs formating and some work done on the database side.
+* Eventually a login and user profile should be added.
 
-### `npm test`
+## Status
+Project is: _under development_, but currently _paused_
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inspiration
+Based on the final project assignment for The Coding Bootcamp at UT Austin.
+Inspired by a love of space and it's exploration.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Contact
+Created by Elise Hammons (and project group 3) - feel free to contact me!
+<br>LinkedIn: https://www.linkedin.com/in/elise-h-01243258/
