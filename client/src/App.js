@@ -43,7 +43,7 @@ class App extends Component {
         <Nav/>
           <Wrapper>
             <Switch>
-              <Route exact path="/" component={LoginPage} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/home" component={Home} />
               <Route exact path="/gamehome" component={GameHome} />
               <Route exact path="/clickyhome" component={ClickyHome} />
