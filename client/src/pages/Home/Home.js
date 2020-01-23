@@ -36,9 +36,9 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <img className="imageofday" src={Image}/>
+                    <img className="imageofday" src={this.state.result.url}/>
                 </Row>
-                <Row><h4 className="imageofdaytitle">Hubble Spots a Curious Spiral</h4></Row>
+                <Row><h4 className="imageofdaytitle">{this.state.result.title}</h4></Row>
                 <Row>
                     <Col size="md-3">
                         <Link to="/scores">
