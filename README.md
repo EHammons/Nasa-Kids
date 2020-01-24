@@ -5,20 +5,31 @@ https://nasa-kids-final.herokuapp.com/
 
 ## Table of contents
 * [General info](#general-info)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
+* [Group Members](#group-members)
 * [Contact](#contact)
 
 ## General info
 As our group project 3, we feel the existing resources available for children about NASA and getting them interested in outer space and exploration, are a bit lacking. NASA has many more important things to focus on, so we decided to create an app to bring the wonders of it all to children in a more fun environment.
+<br><br>
+Follow this link to view our group [presentation](https://docs.google.com/presentation/d/1a0miln3UXQHc4kOzsy3wqUfzyHMwrS8gABZPDaQ8ooE/edit?usp=sharing).
+
+## Screenshots
+### Concept
+![Screenshot](./client/public/img/concept.png)<br>
+### Deployed Site
+![Screenshot](./client/public/img/NASA-Kids.png)
 
 ## Technologies
 * MongoDB
 * JavaScript
 * Bootstrap
 * React
+* NASA Image of the Day API
 
 ## Code Examples
     render() {
@@ -57,6 +68,12 @@ Project is: _under development_, but currently _paused_
 Inspired by a love of space and it's exploration.
 Based on the final project assignment for The Coding Bootcamp at UT Austin.
 
+## Group members:
+* Elise Hammons: https://github.com/EHammons
+* Bailey Beck: https://github.com/baileymbeck
+* Kristen Stroup: https://github.com/Knwhit20
+* Angelica Zamer: https://github.com/abzamer
+
 ## Contact
 Created by Elise Hammons (and project group 3) - feel free to contact me!
-<br>LinkedIn: https://www.linkedin.com/in/elise-h-01243258/
+<br>[LinkedIn](https://www.linkedin.com/in/elise-h-01243258/)
