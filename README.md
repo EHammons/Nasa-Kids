@@ -54,8 +54,8 @@ List of features ready and TODOs for future development:
 Project is: _under development_, but currently _paused_
 
 ## Inspiration
-Based on the final project assignment for The Coding Bootcamp at UT Austin.
 Inspired by a love of space and it's exploration.
+Based on the final project assignment for The Coding Bootcamp at UT Austin.
 
 ## Contact
 Created by Elise Hammons (and project group 3) - feel free to contact me!
